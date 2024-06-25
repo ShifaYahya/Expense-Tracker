@@ -51,7 +51,7 @@ const ExpenseTracker = () => {
     <div className='flex justify-center m-7 padding-3 text-[rgb(0,0,0)] flex-col '>
       <div className='mx-auto '>
         <div className="">
-        {profilePhoto ? <div className='float-up float-right flex flex-col items-center'>< img className="rounded-full mb-3" src={profilePhoto}></img> <button className='text-white bg-[rgba(171,0,0,0.86)] rounded-md w-[80px] hover:opacity-80 text-center' onClick = {signUserOut}>Sign Out</button></div> : <div className=" flex flex-col items-center float-right"> <img className=" w-[210px] h-[170px]" src={profile} ></img> <button className='text-white bg-[rgba(185,56,36,0.86)] rounded-md w-[80px] hover:opacity-80 transition-all ease-in-out duration-300 text-center' onClick = {signUserOut}>Sign Out</button></div>
+        {profilePhoto ? <div className='float-up float-right flex flex-col items-center'>< img alt="profile image" className="rounded-full mb-3" src={profilePhoto}></img> <button className='text-white bg-[rgba(171,0,0,0.86)] rounded-md w-[80px] hover:opacity-80 text-center' onClick = {signUserOut}>Sign Out</button></div> : <div className=" flex flex-col items-center float-right"> <img className=" w-[210px] h-[170px]" src={profile} ></img> <button className='text-white bg-[rgba(185,56,36,0.86)] rounded-md w-[80px] hover:opacity-80 transition-all ease-in-out duration-300 text-center' onClick = {signUserOut}>Sign Out</button></div>
         
          }
           <h1 className='text-[30px] font-bold font-sans text-[rgb(0,0,0)] mb-9'> {name}'s Expense Tracker</h1>
