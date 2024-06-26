@@ -1,4 +1,4 @@
 # Expense Tracker
-an expense tracker made using ReactJs and Firebase 
+An expense tracker made using ReactJs and Firebase 
 <br>
 <a href="https://s-expensetracker.netlify.app/">View Live Website</a>
